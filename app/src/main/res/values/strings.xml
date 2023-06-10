@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- sign_in strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="zaloguj_si__string">Just Sign in, well do the cooking</string>
+	<string name="email_address_string">Email address</string>
+	<string name="abel_domain_com_string">abel@domain.com</string>
+	<string name="password_string">Password </string>
+	<string name="________string">******</string>
+	<string name="or_string">Or</string>
+	<string name="deliver_to_string">Deliver to</string>
+	<string name="athi_river_string">Athi river</string>
+	<string name="home_ek1_string">Home</string>
+	<string name="search_ek1_string">Search</string>
+	<string name="orders_string">Orders</string>
+	<string name="account_string">Account</string>
+	<string name="your_orders_ek1_string">Your orders</string>
+	<string name="cookie_sandwich_string">Cookie sandwich</string>
+	<string name="kes_345_string">Kes 345</string>
+	<string name="add_promo_code_string">Add Promo code</string>
+	<string name="shortbread__chocolat_string">Subtotal</string>
+	<string name="shortbread__chocolat_ek1_string">Kes 1,145</string>
+	<string name="shortbread__chocolat_ek2_string">Promo</string>
+	<string name="shortbread__chocolat_ek3_string">-Kes 100</string>
+	<string name="total_string">Total</string>
+	<string name="kes_1_045_string">Kes 1,045</string>
+</resources>

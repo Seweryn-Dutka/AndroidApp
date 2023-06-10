@@ -1,0 +1,600 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		all_restaurants
+	 *	@date 		Friday 05th of May 2023 10:58:26 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/all_restaurants" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_all_restaurants_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+
+				<View
+					android:id="@+id/_bg__all_restaurants_ek2"
+					android:layout_width="360dp"
+					android:layout_height="800dp"
+					android:layout_marginStart="-5dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__all_restaurants_ek2_shape" />
+
+
+				<RelativeLayout
+					android:id="@+id/frame_60"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="68dp">
+
+
+					<RelativeLayout
+						android:id="@+id/frame_59"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp">
+
+
+						<RelativeLayout
+							android:id="@+id/frame_57"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"/>
+
+
+						<RelativeLayout
+							android:id="@+id/frame_58"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="21dp">
+
+							<TextView
+								android:id="@+id/athi_river"
+								android:layout_width="87dp"
+								android:layout_height="30dp"
+								android:layout_gravity="center_horizontal|center"
+								android:layout_marginLeft="-3dp"
+								android:layout_marginTop="0dp"
+								android:gravity="center"
+								android:text="@string/athi_river_string"
+								android:textColor="@color/athi_river_color"
+								android:textSize="16sp"
+								android:textStyle="bold" />
+
+							<ImageView
+								android:id="@+id/__img_chevron_down"
+								android:layout_width="16dp"
+								android:layout_height="16dp"
+								android:layout_marginStart="84dp"
+								android:layout_marginTop="1.5dp"
+								android:contentDescription="__img_chevron_down"
+								android:src="@drawable/__img_chevron_down" />
+
+						</RelativeLayout>
+
+					</RelativeLayout>
+
+
+					<RelativeLayout
+						android:id="@+id/frame_61"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="295dp"
+						android:layout_marginTop="8dp">
+
+						<ImageView
+							android:id="@+id/__img_sliders_horizontal"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="__img_sliders_horizontal"
+							android:src="@drawable/__img_sliders_horizontal" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+				<RelativeLayout android:id="@+id/frame_97"
+					android:layout_marginTop="142dp"
+					android:layout_marginStart="16dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout
+						android:id="@+id/frame_Pierogi"
+						android:layout_width="145dp"
+						android:layout_height="250dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp">
+
+						<Button
+							android:id="@+id/Pierogi_button"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_alignParentBottom="true"
+							android:layout_marginBottom="0dp"
+							android:backgroundTint="#FFC107"
+							android:text="Add to cart" />
+
+						<ImageView
+							android:id="@+id/imageView2"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:background="@drawable/pierogi" />
+
+						<TextView
+							android:id="@+id/potrawa1"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Pierogi_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="20dp"
+							android:layout_marginStart="5dp"
+							android:text="Chinese Dumplings"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+						<TextView
+							android:id="@+id/cena1"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Pierogi_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="0dp"
+							android:layout_marginStart="5dp"
+							android:text="12 PLN"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+					</RelativeLayout>
+
+					<RelativeLayout
+						android:id="@+id/frame_Noodles"
+						android:layout_width="145dp"
+						android:layout_height="250dp"
+						android:layout_marginStart="190dp"
+						android:layout_marginTop="0dp">
+
+						<Button
+							android:id="@+id/Noodles_button"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_alignParentBottom="true"
+							android:layout_marginBottom="0dp"
+							android:backgroundTint="#FFC107"
+							android:text="Add to cart" />
+
+						<ImageView
+							android:id="@+id/imageView3"
+							android:layout_width="match_parent"
+							android:layout_height="165dp"
+							android:background="@drawable/friednoodles" />
+
+						<TextView
+							android:id="@+id/potrawa2"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Noodles_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="20dp"
+							android:layout_marginStart="5dp"
+							android:text="Fried Noodles"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+						<TextView
+							android:id="@+id/cena2"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Noodles_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="0dp"
+							android:layout_marginStart="5dp"
+							android:text="18 PLN"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+
+
+					</RelativeLayout>
+
+					<RelativeLayout
+						android:id="@+id/frame_Pekin"
+						android:layout_width="145dp"
+						android:layout_height="250dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="270dp">
+
+						<Button
+							android:id="@+id/Pekin_button"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_alignParentBottom="true"
+							android:layout_marginBottom="0dp"
+							android:backgroundTint="#FFC107"
+							android:text="Add to cart" />
+
+						<ImageView
+							android:id="@+id/imageView4"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:background="@drawable/pekin" />
+
+						<TextView
+							android:id="@+id/potrawa3"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Pekin_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="21dp"
+							android:layout_marginStart="5dp"
+							android:text="Pekin Duck"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+						<TextView
+							android:id="@+id/cena3"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Pekin_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="0dp"
+							android:layout_marginStart="5dp"
+							android:text="24 PLN"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+					</RelativeLayout>
+
+					<RelativeLayout
+						android:id="@+id/frame_Bean"
+						android:layout_width="145dp"
+						android:layout_height="250dp"
+						android:layout_marginStart="190dp"
+						android:layout_marginTop="270dp">
+
+						<Button
+							android:id="@+id/Bean_button"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_alignParentBottom="true"
+							android:layout_marginBottom="0dp"
+							android:backgroundTint="#FFC107"
+							android:text="Add to cart" />
+
+						<ImageView
+							android:id="@+id/imageView5"
+							android:layout_width="match_parent"
+							android:layout_height="165dp"
+							android:background="@drawable/bean" />
+
+						<TextView
+							android:id="@+id/potrawa4"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Bean_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="20dp"
+							android:layout_marginStart="5dp"
+							android:text="Bean Curd"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+						<TextView
+							android:id="@+id/cena4"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Bean_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="0dp"
+							android:layout_marginStart="5dp"
+							android:text="16 PLN"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout
+						android:id="@+id/frame_kungpao"
+						android:layout_width="145dp"
+						android:layout_height="250dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="540dp">
+
+						<Button
+							android:id="@+id/kungpao_button"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_alignParentBottom="true"
+							android:layout_marginBottom="0dp"
+							android:backgroundTint="#FFC107"
+							android:text="Add to cart" />
+
+						<ImageView
+							android:id="@+id/imageView6"
+							android:layout_width="match_parent"
+							android:layout_height="157dp"
+							android:background="@drawable/kungchicken" />
+
+						<TextView
+							android:id="@+id/potrawa5"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/kungpao_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="20dp"
+							android:layout_marginStart="5dp"
+							android:text="Kung Pao Chicken"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+						<TextView
+							android:id="@+id/cena5"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/kungpao_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="0dp"
+							android:layout_marginStart="5dp"
+							android:text="16 PLN"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+					</RelativeLayout>
+
+					<RelativeLayout
+						android:id="@+id/frame_Egg"
+						android:layout_width="145dp"
+						android:layout_height="250dp"
+						android:layout_marginStart="190dp"
+						android:layout_marginTop="540dp">
+
+						<Button
+							android:id="@+id/Egg_button"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_alignParentBottom="true"
+							android:layout_marginBottom="0dp"
+							android:backgroundTint="#FFC107"
+							android:text="Add to cart" />
+
+						<ImageView
+							android:id="@+id/imageView7"
+							android:layout_width="match_parent"
+							android:layout_height="159dp"
+							android:background="@drawable/egg" />
+
+						<TextView
+							android:id="@+id/potrawa6"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Egg_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="20dp"
+							android:layout_marginStart="5dp"
+							android:text="Egg Rolls"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+						<TextView
+							android:id="@+id/cena6"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Egg_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="0dp"
+							android:layout_marginStart="5dp"
+							android:text="12 PLN"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+					</RelativeLayout>
+
+					<RelativeLayout
+						android:id="@+id/frame_Rice"
+						android:layout_width="145dp"
+						android:layout_height="250dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="810dp">
+
+						<Button
+							android:id="@+id/Rice_button"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_alignParentBottom="true"
+							android:layout_marginBottom="0dp"
+							android:backgroundTint="#FFC107"
+							android:text="Add to cart" />
+
+						<ImageView
+							android:id="@+id/imageView8"
+							android:layout_width="match_parent"
+							android:layout_height="159dp"
+							android:background="@drawable/rice" />
+
+						<TextView
+							android:id="@+id/potrawa7"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Rice_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="20dp"
+							android:layout_marginStart="5dp"
+							android:text="Rice Porridge"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+						<TextView
+							android:id="@+id/cena7"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Rice_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="0dp"
+							android:layout_marginStart="5dp"
+							android:text="16 PLN"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+					</RelativeLayout>
+
+					<RelativeLayout
+						android:id="@+id/frame_Tea"
+						android:layout_width="145dp"
+						android:layout_height="250dp"
+						android:layout_marginStart="190dp"
+						android:layout_marginTop="810dp">
+
+						<Button
+							android:id="@+id/Tea_button"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_alignParentBottom="true"
+							android:layout_marginBottom="0dp"
+							android:backgroundTint="#FFC107"
+							android:text="Add to cart" />
+
+						<ImageView
+							android:id="@+id/imageView9"
+							android:layout_width="match_parent"
+							android:layout_height="169dp"
+							android:background="@drawable/tea" />
+
+						<TextView
+							android:id="@+id/potrawa8"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Tea_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="20dp"
+							android:layout_marginStart="5dp"
+							android:text="Green Tea"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+						<TextView
+							android:id="@+id/cena8"
+							android:layout_width="match_parent"
+							android:layout_height="20dp"
+							android:layout_above="@+id/Tea_button"
+							android:layout_alignParentEnd="true"
+							android:layout_marginEnd="0dp"
+							android:layout_marginBottom="0dp"
+							android:layout_marginStart="5dp"
+							android:text="6 PLN"
+							android:textColor="@color/zaloguj_si__color"
+							android:textSize="15sp" />
+
+					</RelativeLayout>
+
+
+
+
+
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/frame_84"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="1210dp">
+
+					<Button
+						android:id="@+id/btn_home"
+						android:layout_width="39dp"
+						android:layout_height="49dp"
+						android:layout_marginStart="16dp"
+						android:layout_marginTop="24dp"
+						android:background="@drawable/__img_frame_80"
+						tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+						android:onClick="change_Activity"/>
+
+					<Button
+						android:id="@+id/btn_search"
+						android:layout_width="45dp"
+						android:layout_height="49dp"
+						android:layout_marginStart="102.67dp"
+						android:layout_marginTop="24dp"
+						android:background="@drawable/__img_frame_81"
+						android:contentDescription="__img_frame_81"
+						tools:ignore="TouchTargetSizeCheck"
+						android:onClick="change_Activity"/>
+
+					<Button
+						android:id="@+id/btn_cart"
+						android:layout_width="48dp"
+						android:layout_height="49dp"
+						android:layout_marginStart="195.33dp"
+						android:layout_marginTop="24dp"
+						android:background="@drawable/__img_frame_82"
+						android:contentDescription="__img_frame_82"
+						android:onClick="change_Activity"/>
+
+					<Button
+						android:id="@+id/btn_account"
+						android:layout_width="55dp"
+						android:layout_height="49dp"
+						android:layout_marginStart="289dp"
+						android:layout_marginTop="24dp"
+						android:background="@drawable/__img_frame_83"
+						android:contentDescription="__img_frame_83"
+						android:onClick="change_Activity"/>
+
+				</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+	</ScrollView>
+</HorizontalScrollView>
