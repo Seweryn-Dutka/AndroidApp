@@ -79,7 +79,7 @@
 					</RelativeLayout>
 
 
-					<RelativeLayout
+					<LinearLayout
 						android:id="@+id/frame_150"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
@@ -149,7 +149,133 @@
 
 						</RelativeLayout>
 
-					</RelativeLayout>
+						<RelativeLayout
+							android:id="@+id/frame_1491"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="-345dp"
+							android:layout_marginTop="35dp">
+
+
+							<ImageView
+								android:id="@+id/__img_frame_111"
+								android:layout_width="24dp"
+								android:layout_height="24dp"
+								android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp"
+								android:contentDescription="__img_frame_11"
+								android:src="@drawable/__img_frame_11" />
+
+							<RelativeLayout
+								android:id="@+id/frame_1481"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginStart="37dp"
+								android:layout_marginTop="0dp">
+
+
+								<RelativeLayout
+									android:id="@+id/frame_1471"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_marginStart="0dp"
+									android:layout_marginTop="0dp">
+
+									<TextView
+										android:id="@+id/cookie_sandwich1"
+										android:layout_width="145dp"
+										android:layout_height="30dp"
+										android:layout_gravity="center_horizontal|center"
+										android:layout_marginLeft="0dp"
+										android:layout_marginTop="2.5dp"
+										android:gravity="center"
+										android:text="@string/cookie_sandwich_string"
+										android:textColor="@color/your_orders_ek1_color"
+										android:textSize="16sp"
+										android:textStyle="bold" />
+
+									<TextView
+										android:id="@+id/price1"
+										android:layout_width="83dp"
+										android:layout_height="35dp"
+										android:layout_marginLeft="225dp"
+										android:layout_marginTop="0dp"
+										android:text="12.99 PLN"
+										android:textColor="@color/kes_345_color"
+										android:textSize="16sp"
+										android:textStyle="bold" />
+
+								</RelativeLayout>
+
+							</RelativeLayout>
+
+						</RelativeLayout>
+
+						<RelativeLayout
+							android:id="@+id/frame_14911"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="-346dp"
+							android:layout_marginTop="70dp">
+
+
+						<ImageView
+							android:id="@+id/__img_frame_1111"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="__img_frame_11"
+							android:src="@drawable/__img_frame_11" />
+
+						<RelativeLayout
+							android:id="@+id/frame_14811"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="37dp"
+							android:layout_marginTop="0dp">
+
+
+							<RelativeLayout
+								android:id="@+id/frame_14711"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp">
+
+								<TextView
+									android:id="@+id/cookie_sandwich11"
+									android:layout_width="145dp"
+									android:layout_height="30dp"
+									android:layout_gravity="center_horizontal|center"
+									android:layout_marginLeft="0dp"
+									android:layout_marginTop="2.5dp"
+									android:gravity="center"
+									android:text="@string/cookie_sandwich_string"
+									android:textColor="@color/your_orders_ek1_color"
+									android:textSize="16sp"
+									android:textStyle="bold" />
+
+								<TextView
+									android:id="@+id/price11"
+									android:layout_width="83dp"
+									android:layout_height="35dp"
+									android:layout_marginLeft="225dp"
+									android:layout_marginTop="0dp"
+									android:text="12.99 PLN"
+									android:textColor="@color/kes_345_color"
+									android:textSize="16sp"
+									android:textStyle="bold" />
+
+							</RelativeLayout>
+
+						</RelativeLayout>
+
+						</RelativeLayout>
+
+
+
+					</LinearLayout>
 
 
 					<RelativeLayout
